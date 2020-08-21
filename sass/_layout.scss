@@ -1,0 +1,60 @@
+.header {
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(#0000FD, 0.2), 
+        rgba(#0000FD, 0.2)),
+        url(../img/rectangle-17.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    // position: relative;
+    // z-index: 1;
+    // overflow-x: hidden;
+}
+
+.section-work {
+    display: flex;
+    // flex-wrap: wrap;
+
+    &__img {
+        flex-basis: 50%;
+
+        // @include respond (tab-land) {
+        //     flex-basis: 100%;
+        // }
+    }
+}
+
+.section-features {
+    background-color: var(--color-grey-1);
+}
+
+.section-studies {
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(#0000FD, 0.3), 
+        rgba(#0000FD, 0.3)),
+        url(../img/Image.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.section-blog {
+    background-color: var(--color-grey-1);
+}
+
+.footer {
+    background-color: var(--color-tertiary);
+    padding: 5.8rem 0;
+
+    &__p {
+        font-size: 2rem;
+        font-family: 'Poppins';
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.432);
+        text-align: center;
+    }
+}

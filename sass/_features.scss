@@ -1,0 +1,87 @@
+.features {
+
+    &__text {
+
+        &-box {
+            text-align: center;
+            margin-bottom: 6.4rem;
+
+            &__case {
+                margin-top: 10rem;
+                color: var(--color-secondary);
+            }
+
+            &__blog {
+                padding-top: 6.46rem;
+            }
+        }
+
+        &-bg {
+            font-weight: 300;
+            font-family: 'Lato';
+            font-size: 3.5rem;
+            display: block;
+            margin-bottom: 1.5rem;
+        }
+
+        &-sm {
+            font-weight: 400;
+            font-family: 'Poppins';
+            font-size: 1.6rem;
+        }
+    }
+
+    &-box {
+        display: flex;
+        justify-content: space-between;
+        // background-color: orange;
+        margin-bottom: 2.5rem;
+    }
+
+    &__details {
+        background-color: var(--color-secondary);
+        flex-basis: 32%;
+        padding: 6.7rem 0;
+        text-align: center;
+    }
+
+    &__icon {
+        width: 3.2rem;
+        height: 3.2rem;
+        fill: var(--color-secondary);
+        // padding: 2.8rem;
+        background-color: orchid;
+
+        &-box {
+            padding: 2.8rem;
+            background-color: var(--color-tertiary);
+        }
+    }
+
+    &__head {
+        font-weight: 400;
+        font-family: 'Poppins';
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    &__paragraph {
+        font-weight: 300;
+        font-family: 'Poppins';
+        font-size: 1.6rem;
+    }
+
+    &__content {
+        padding: 6.7rem 6.1rem;
+    }
+
+    &__img {
+        padding: 2.8rem;
+        background-color: var(--color-tertiary);
+        border-radius: 10rem;
+    }
+
+    &__composition {
+        margin-bottom: 2.7rem;
+    }
+}
